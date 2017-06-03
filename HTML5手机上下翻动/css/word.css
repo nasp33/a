@@ -1,0 +1,732 @@
+p{
+	color: rgb(40,40,40)
+}
+.per-resume{
+	display: block;
+	width:340px;
+	background: rgb(40,40,40);
+/*	transform: scale(1.2,1);*/
+	margin-top: 330px;
+	font-family: 新宋体;
+	font-size: 7em;
+	position: relative;
+	padding: 0 50px;
+	animation:pr 1s linear ;  
+	margin-right: auto;
+	margin-left: auto;
+	color:rgb(233, 181, 0);
+
+}
+.word-resume{
+	display: block;
+	width:390px;
+	padding-left: 30px;
+	padding-right: 10px;
+	margin-right: auto;
+	margin-left: auto;
+	font-size: 3em;
+	color:rgb(40, 40, 40);
+	margin-top: 20px;
+	/*background: red;*/
+	animation:wr 0.5s linear ;  
+}
+@keyframes pr{
+	0%{
+		transform:  translate(300px,-1500px)  rotate(-90deg);
+	}
+	50%{
+		transform: rotate(-90deg) translate(300px,-1500px);
+	}
+	100%{
+		transform: rotate(0deg) translate(0px,0px) ;
+	}
+
+}
+@keyframes wr{
+	0%{
+		transform: translate(-1000px,0px);
+	}
+	100%{
+		transform: translate(0px,0px);
+	}
+}
+.first{
+	/*background: red;*/
+	display: block;
+	color:rgb(40, 40, 40);
+	width:360px;
+	font-size: 7em;
+	padding: 0 40px;
+	margin-top: 280px;
+	animation:first 0.5s linear ;  
+}
+.name{
+	display: block;
+	/*background: blue;*/
+	font-size: 5em;
+	width: 260px;
+	float: right;
+	margin-top: 50px;
+	padding-right: 10px;
+	animation:name 1s linear; 
+	color:rgb(40, 40, 40);
+}
+.name-span{
+	font-size: 0.5em;
+	color: black;
+}
+@keyframes first{
+	0%{
+		transform: translate(-1000px,0px);
+	}
+	100%{
+		transform: translate(0px,0px);
+	}
+}
+@keyframes name{
+	0%{
+		transform: translate(1000px,0px);
+	}
+	50%{
+		transform: translate(1000px,0px);
+	}
+	100%{
+		transform: translate(0px,0px);
+	}
+}
+.three-page{
+	/*background: red;*/
+	float: left;
+	font-weight: bold;
+	margin-left: 28px;
+	margin-top: 230px;
+}
+.three-page p{
+	margin-top: 16px;
+	font-size: 38px;
+}
+.and-then{
+	animation:and-then 0.8s ease-out; 
+}
+.joke{
+	animation:joke 2.8s ease-out; 
+}
+@keyframes and-then{
+	0%{
+		transform: translate(1000px,0px);
+	}
+	100%{
+		transform: translate(0px,0px);
+	}
+}
+@keyframes joke{
+	0%{
+		transform: translate(1000px,0px);
+	}
+	50%{
+		transform: translate(1000px,0px);
+	}
+	100%{
+		transform: translate(0px,0px);
+	}
+}
+.what{
+	animation:what 1.8s ease-out; 
+}
+.patient{
+	animation:patient 3.8s ease-out; 
+}
+@keyframes what{
+	0%{
+		transform: translate(1000px,0px);
+	}
+	50%{
+		transform: translate(1000px,0px);
+	}
+	100%{
+		transform: translate(0px,0px);
+	}
+}
+@keyframes patient{
+	0%{
+		transform: translate(1000px,0px);
+	}
+	50%{
+		transform: translate(1000px,0px);
+	}
+	100%{
+		transform: translate(0px,0px);
+	}
+}
+.w{
+	display: none;
+}
+.introduce{
+	font-size: 5em;
+	width: 190px;
+	margin-left: auto;
+	margin-right: auto;
+	font-family:'winmantun23001a5d4552c118ead';
+	margin-top: 230px;
+	animation:introduce 1.5s linear; 
+	/*font-weight: bold;*/
+}
+@keyframes introduce{
+	0%{
+		transform: rotate3d(100,0,0,90deg);
+	}
+	100%{
+		transform: rotate3d(0,0,0,0deg);
+	}
+}
+.about-me{
+	font-size: 5em;
+	width: 190px;
+	margin-left: auto;
+	margin-right: auto;
+	font-family:'AnJingCheng-Xina59e96b9018ead';
+	font-weight: bold;
+	animation:aboutMe 1.5s linear; 
+}
+@keyframes aboutMe{
+	0%{
+		transform: rotate3d(0,100,0,90deg);
+	}
+	100%{
+		transform: rotate3d(0,0,0,0deg);
+	}
+}
+.me{
+	font-size: 2em;
+	width: 490px;
+	text-indent: 2em;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	padding: 10px;
+	animation:me 1.5s linear; 
+	perspective:500px;
+}
+@keyframes me{
+	0%{
+		transform: rotate3d(100,0,0,90deg);
+	}
+	100%{
+		transform: rotate3d(0,0,0,0deg);
+	}
+}
+.school{
+	font-size: 5em;
+	width: 240px;
+	/*background: red;*/
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 230px;
+	font-family:'jin_mei_mxplzxa5d7721ac18ead';
+	animation:school 1s linear; 
+}
+@keyframes school{
+	0%{
+		transform: translate(-1000px,0px);
+	}
+	80%{
+		transform: translate(20px,0px);
+	}
+	90%{
+		transform: translate(-20px,0px);
+	}
+	100%{
+		transform: translate(0px,0px);
+	}
+}
+.performance{
+	font-size: 34px;
+	width: 250px;
+	margin-left: auto;
+	margin-right: auto;
+	font-family:'chenwixun-jiana5d6efaf118ead';
+	font-weight: bold;
+	animation:performance 1s linear; 
+}
+@keyframes performance{
+	0%{
+		transform: translate(1000px,0px);
+	}
+	80%{
+		transform: translate(-20px,0px);
+	}
+	90%{
+		transform: translate(20px,0px);
+	}
+	100%{
+		transform: translate(0px,0px);
+	}
+}
+.school-life{
+	font-size: 2em;
+	width: 480px;
+	text-indent: 2em;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	padding: 10px;
+	animation:schoolLife 2s linear; 
+	perspective:500px;
+}
+@keyframes schoolLife{
+	0%{
+		transform: rotate3d(0,100,0,90deg);
+	}
+	80%{
+		transform: rotate3d(0,100,0,-20deg);
+	}
+	100%{
+		transform: rotate3d(0,0,0,0deg);
+	}
+}
+
+.intere{
+	font-size: 19px;
+	width: 222px;
+	margin-top: 4px;
+	margin-left: auto;
+	margin-right: auto;
+	font-family:'kittyyuanshimaoa5d8f73ce18ead';
+	font-weight: bold;
+	animation:intere 1s ease-out; 
+}
+@keyframes then{
+	0%{
+		transform: rotate(-90deg);
+	}
+	100%{
+		transform: rotate(0deg);
+	}
+}
+.hobby{
+	width: 480px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+	display: block;
+	margin-top: 20px;
+	perspective:500px;
+}
+.such{
+	font-weight: bold;
+	font-size: 30px;
+	margin-top: 10px;
+	animation:such 1s linear; 
+}
+@keyframes such{
+	0%{
+		transform: translate(-1000px,0px);
+	}
+	100%{
+		transform: translate(0px,0px);
+	}
+}
+.above{
+	font-size: 14px;
+	margin-top: 10px;
+	animation:intere 7s ease-out; 
+	transform-origin: left;
+}
+@keyframes above{
+	0%{
+		transform: scale(0,0);
+	}
+	100%{
+		transform: scale(1,1);
+	}
+}
+.like{
+	font-size: 24px;
+	margin-top: 10px;
+	animation:like 1s ease-out; 
+	transform-origin: left top;
+}
+@keyframes like{
+	0%{
+		transform: rotate(90deg);
+	}
+	100%{
+		transform: rotate(0deg);
+	}
+}
+.then{
+	font-size: 5em;
+	width: 240px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 230px;
+	font-family:'DroidSansa5d8d8feb18ead';
+	animation:then 1s ease-out; 
+	transform-origin: left top;
+}
+@keyframes intere{
+	0%{
+		transform: rotate(90deg);
+		transform: scale(0,0);
+	}
+	100%{
+		transform: rotate(0deg);
+		transform: scale(1,1);
+	}
+}
+.achieve{
+	font-size: 5em;
+	font-family:'zsxsbainianjnbaf3b214a118ead';
+	width: 240px;
+	height: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 230px;
+	/*background: red;*/
+	animation:achieve 1.1s ease-out; 
+}
+@keyframes ach{
+	0%{
+		transform: scale(0,0) rotate(180deg);
+	}
+	50%{
+		transform: scale(0,0) rotate(180deg);
+	}
+	100%{
+		transform: scale(1,1) rotate(0deg);
+	}	
+}
+@keyframes achieve{
+	0%{
+		transform: translate(0px,-1000px);
+	}
+	40%{
+		transform: translate(0px,-1000px);
+	}
+	80%{
+		transform: translate(0px,0px);
+		/*transform-origin: left top;*/
+		transform: rotate(-15deg);
+	}
+	90%{
+		transform: translate(0px,0px);
+		/*transform-origin: left top;*/
+		transform: rotate(15deg);
+	}
+	100%{
+		transform: translate(0px,0px);
+		transform: rotate(0deg); 
+	}
+}
+.ach{
+	font-size: 38px;
+	width: 220px;
+	/*background: green;*/
+	/*margin-top: 4px;*/
+	margin-left: auto;
+	margin-right: auto;
+	font-family:'chenwixun-jianaf3a8d1e718ead';
+	font-weight: bold;
+	animation:ach 2.2s ease-out; 
+}
+.got{
+	width: 480px;
+	font-size: 2em;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+	display: block;
+	margin-top: 20px;
+	perspective:500px;
+	list-style-type:disc;
+}
+.got li{
+	color: rgb(0,20,20);
+}
+.scholarship{
+	animation:scholarship 4s ease-out;
+}
+@keyframes scholarship{
+	0%{
+		transform: translate(-1000px,0px);
+	}
+	47%{
+		transform: translate(-1000px,0px);
+	}
+	100%{
+		transform: translate(0px,0px);
+	}
+	
+}
+@keyframes model{
+	0%{
+		transform: translate(-1000px,0px);
+	}
+	41%{
+		transform: translate(-1000px,0px);
+	}
+	100%{
+		transform: translate(0px,0px);
+	}
+}
+@keyframes blog{
+	0%{
+		transform: translate(-1000px,0px);
+	}
+	70%{
+		transform: translate(-1000px,0px);
+	}
+	100%{
+		transform: translate(0px,0px);
+	}
+}
+@keyframes reward{
+	0%{
+		transform: translate(-1000px,0px);
+	}
+	64%{
+		transform: translate(-1000px,0px);
+	}
+	100%{
+		transform: translate(0px,0px);
+	}
+}
+@keyframes ss{
+	0%{
+		transform: translate(-1000px,0px);
+	}
+	51%{
+		transform: translate(-1000px,0px);
+	}
+	100%{
+		transform: translate(0px,0px);
+	}
+}
+.model{
+	animation:model 4s ease-out;
+}
+.blog{
+	animation:blog 4.2s ease-out;
+}
+.reward{
+	animation:reward 4.2s ease-out;
+}
+.ss{
+	animation:ss 4s ease-out;
+}
+.down{
+	width: 550px;
+	font-size: 30px;
+	font-weight: bold;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 260px;
+}
+
+.okay1{
+	background: rgb(40,40,40);
+	color: white;
+	border: 4px solid white;
+	animation:okay 0.6s linear; 
+	-webkit-transform: rotate(-10deg);
+	line-height: 50px;
+	-moz-transform: rotate(-10deg);
+}
+@keyframes okay{
+	0%{
+		transform: translate(-1000px,0px);
+		transform-origin: left;
+		transition:rotate(-10deg;);
+	}
+	100%{
+		transform: translate(-1000px,0px);
+		transform-origin: left;
+		transition:rotate(-10deg);
+	}
+}
+.flower1{
+	animation:flower 0.8s linear; 
+	margin-top: 81px;
+	background: red;
+	color: rgb(40,40,40);
+	border: 4px solid rgb(40,40,40);
+	line-height: 50px;
+	-webkit-transform: rotate(10deg);
+	-moz-transform: rotate(10deg);
+}
+@keyframes flower{
+	0%{
+		transform: translate(-1000px,0px);
+		transform-origin: left;
+		transition:rotate(10deg;);
+	}
+	100%{
+		transform: translate(-1000px,0px);
+		transform-origin: left;
+		transition:rotate(10deg);
+	}
+}
+.attention1{
+	animation:attention 0.7s linear; 
+	margin-top: 80px;
+	background: white;
+	color: rgb(40,40,40);
+	line-height: 50px;
+	border: 4px solid rgb(40,40,40);
+	-webkit-transform: rotate(-13deg);
+	-moz-transform: rotate(-13deg);
+}
+@keyframes attention{
+	0%{
+		transform: translate(-1000px,0px);
+		transform-origin: left;
+		transition:rotate(-13deg;);
+	}
+	100%{
+		transform: translate(-1000px,0px);
+		transform-origin: left;
+		transition:rotate(-13deg);
+	}
+}
+.go-on1{
+	animation:goON 0.7s linear; 
+	background: rgb(40,40,40);
+	color: white;
+	margin-top: 66px;
+	line-height: 50px;
+	border:4px solid white;
+	-webkit-transform: rotate(4deg);
+	-moz-transform: rotate(4deg);
+}
+@keyframes goON{
+	0%{
+		transform: translate(-1000px,0px);
+		transform-origin: left;
+		transition:rotate(4deg;);
+	}
+	100%{
+		transform: translate(-1000px,0px);
+		transform-origin: left;
+		transition:rotate(4deg);
+	}
+}
+.look{
+	width: 550px;
+	font-size: 4em;
+	font-weight: bold;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 230px;
+}
+.think{
+	animation:think 1s ease; 
+	transform-origin: left top;
+}
+.thing{
+	animation:thing 1.5s ease; 
+	transform-origin: left top;
+}
+.no-suit{
+	animation:noSuit 2s ease;
+	transform-origin: left top; 
+}
+@keyframes think{
+	0%{
+		transform: rotate(-90deg);
+	}
+	100%{
+		transform: rotate(0deg);
+	}
+}
+@keyframes thing{
+	0%{
+		transform:  rotate(-90deg);
+	}
+	100%{
+		transform:  rotate(0deg);
+	}
+}
+@keyframes noSuit{
+	0%{
+		transform:  rotate(-90deg);
+	}
+	100%{
+		transform:  rotate(0deg);
+	}
+}
+.lier{
+	width: 550px;
+	font-size: 40px;
+	font-weight: bold;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 230px;
+}
+.truth{
+	animation:truth 2s linear;
+}
+.lie{
+	animation:lie 2s linear;
+}
+.publish{
+	animation:publish 2s linear;
+}
+@keyframes truth{
+	0%{
+		transform: scale(5,5);
+	}
+	80%{
+		transform: scale(0.9,0.9);
+	}
+	100%{
+		transform: scale(1,1);
+	}
+}
+@keyframes lie{
+	0%{
+		transform: scale(5,5);
+	}
+	80%{
+		transform: scale(0.9,0.9);
+	}
+	100%{
+		transform:  scale(1,1);
+	}
+}
+@keyframes publish{
+	0%{
+		transform:  scale(5,5);
+	}
+	80%{
+		transform: scale(0.9,0.9);
+	}
+	100%{
+		transform: scale(1,1);
+	}
+}
+.love{
+	width: 550px;
+	font-size: 6em;
+	font-weight: bold;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 233px;
+}
+.namer{
+	color: red;
+	font-size: 9em;
+	text-indent: 2.5em;
+}
+#aa{
+	font-size: 28px;
+	padding-top: 100px;
+	text-indent: 28px;
+}
+#w{
+	padding: 100px;
+}
+.btn1{
+	width: 30px;
+	height: 50px;
+	border-radius: 2px;
+}
