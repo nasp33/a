@@ -32,22 +32,22 @@ p{
 }
 @keyframes pr{
 	0%{
-		transform:  translate(300px,-1500px)  rotate(-90deg);
+		-webkit-transform:  translate(300px,-1500px)  rotate(-90deg);
 	}
 	50%{
-		transform: rotate(-90deg) translate(300px,-1500px);
+		-webkit-transform: rotate(-90deg) translate(300px,-1500px);
 	}
 	100%{
-		transform: rotate(0deg) translate(0px,0px) ;
+		-webkit-transform: rotate(0deg) translate(0px,0px) ;
 	}
 
 }
 @keyframes wr{
 	0%{
-		transform: translate(-1000px,0px);
+		-webkit-transform: translate(-1000px,0px);
 	}
 	100%{
-		transform: translate(0px,0px);
+		-webkit-transform: translate(0px,0px);
 	}
 }
 .first{
@@ -77,21 +77,21 @@ p{
 }
 @keyframes first{
 	0%{
-		transform: translate(-1000px,0px);
+		-webkit-transform: translate(-1000px,0px);
 	}
 	100%{
-		transform: translate(0px,0px);
+		-webkit-transform: translate(0px,0px);
 	}
 }
 @keyframes name{
 	0%{
-		transform: translate(1000px,0px);
+		-webkit-transform: translate(1000px,0px);
 	}
 	50%{
-		transform: translate(1000px,0px);
+		-webkit-transform: translate(1000px,0px);
 	}
 	100%{
-		transform: translate(0px,0px);
+		-webkit-transform: translate(0px,0px);
 	}
 }
 .three-page{
@@ -113,21 +113,21 @@ p{
 }
 @keyframes and-then{
 	0%{
-		transform: translate(1000px,0px);
+		-webkit-transform: translate(1000px,0px);
 	}
 	100%{
-		transform: translate(0px,0px);
+		-webkit-transform: translate(0px,0px);
 	}
 }
 @keyframes joke{
 	0%{
-		transform: translate(1000px,0px);
+		-webkit-transform: translate(1000px,0px);
 	}
 	50%{
-		transform: translate(1000px,0px);
+		-webkit-transform: translate(1000px,0px);
 	}
 	100%{
-		transform: translate(0px,0px);
+		-webkit-transform: translate(0px,0px);
 	}
 }
 .what{
@@ -138,24 +138,24 @@ p{
 }
 @keyframes what{
 	0%{
-		transform: translate(1000px,0px);
+		-webkit-transform: translate(1000px,0px);
 	}
 	50%{
-		transform: translate(1000px,0px);
+		-webkit-transform: translate(1000px,0px);
 	}
 	100%{
-		transform: translate(0px,0px);
+		-webkit-transform: translate(0px,0px);
 	}
 }
 @keyframes patient{
 	0%{
-		transform: translate(1000px,0px);
+		-webkit-transform: translate(1000px,0px);
 	}
 	50%{
-		transform: translate(1000px,0px);
+		-webkit-transform: translate(1000px,0px);
 	}
 	100%{
-		transform: translate(0px,0px);
+		-webkit-transform: translate(0px,0px);
 	}
 }
 .w{
@@ -173,10 +173,10 @@ p{
 }
 @keyframes introduce{
 	0%{
-		transform: rotate3d(100,0,0,90deg);
+		-webkit-transform: rotate3d(100,0,0,90deg);
 	}
 	100%{
-		transform: rotate3d(0,0,0,0deg);
+		-webkit-transform: rotate3d(0,0,0,0deg);
 	}
 }
 .about-me{
@@ -190,10 +190,10 @@ p{
 }
 @keyframes aboutMe{
 	0%{
-		transform: rotate3d(0,100,0,90deg);
+		-webkit-transform: rotate3d(0,100,0,90deg);
 	}
 	100%{
-		transform: rotate3d(0,0,0,0deg);
+		-webkit-transform: rotate3d(0,0,0,0deg);
 	}
 }
 .me{
@@ -209,10 +209,10 @@ p{
 }
 @keyframes me{
 	0%{
-		transform: rotate3d(100,0,0,90deg);
+		-webkit-transform: rotate3d(100,0,0,90deg);
 	}
 	100%{
-		transform: rotate3d(0,0,0,0deg);
+		-webkit-transform: rotate3d(0,0,0,0deg);
 	}
 }
 .school{
@@ -227,16 +227,16 @@ p{
 }
 @keyframes school{
 	0%{
-		transform: translate(-1000px,0px);
+		-webkit-transform: translate(-1000px,0px);
 	}
 	80%{
-		transform: translate(20px,0px);
+		-webkit-transform: translate(20px,0px);
 	}
 	90%{
-		transform: translate(-20px,0px);
+		-webkit-transform: translate(-20px,0px);
 	}
 	100%{
-		transform: translate(0px,0px);
+		-webkit-transform: translate(0px,0px);
 	}
 }
 .performance{
@@ -250,16 +250,16 @@ p{
 }
 @keyframes performance{
 	0%{
-		transform: translate(1000px,0px);
+		-webkit-transform: translate(1000px,0px);
 	}
 	80%{
-		transform: translate(-20px,0px);
+		-webkit-transform: translate(-20px,0px);
 	}
 	90%{
-		transform: translate(20px,0px);
+		-webkit-transform: translate(20px,0px);
 	}
 	100%{
-		transform: translate(0px,0px);
+		-webkit-transform: translate(0px,0px);
 	}
 }
 .school-life{
@@ -275,13 +275,13 @@ p{
 }
 @keyframes schoolLife{
 	0%{
-		transform: rotate3d(0,100,0,90deg);
+		-webkit-transform: rotate3d(0,100,0,90deg);
 	}
 	80%{
-		transform: rotate3d(0,100,0,-20deg);
+		-webkit-transform: rotate3d(0,100,0,-20deg);
 	}
 	100%{
-		transform: rotate3d(0,0,0,0deg);
+		-webkit-transform: rotate3d(0,0,0,0deg);
 	}
 }
 
@@ -297,10 +297,10 @@ p{
 }
 @keyframes then{
 	0%{
-		transform: rotate(-90deg);
+		-webkit-transform: rotate(-90deg);
 	}
 	100%{
-		transform: rotate(0deg);
+		-webkit-transform: rotate(0deg);
 	}
 }
 .hobby{
@@ -320,10 +320,10 @@ p{
 }
 @keyframes such{
 	0%{
-		transform: translate(-1000px,0px);
+		-webkit-transform: translate(-1000px,0px);
 	}
 	100%{
-		transform: translate(0px,0px);
+		-webkit-transform: translate(0px,0px);
 	}
 }
 .above{
@@ -334,10 +334,10 @@ p{
 }
 @keyframes above{
 	0%{
-		transform: scale(0,0);
+		-webkit-transform: scale(0,0);
 	}
 	100%{
-		transform: scale(1,1);
+		-webkit-transform: scale(1,1);
 	}
 }
 .like{
@@ -348,10 +348,10 @@ p{
 }
 @keyframes like{
 	0%{
-		transform: rotate(90deg);
+		-webkit-transform: rotate(90deg);
 	}
 	100%{
-		transform: rotate(0deg);
+		-webkit-transform: rotate(0deg);
 	}
 }
 .then{
@@ -366,12 +366,12 @@ p{
 }
 @keyframes intere{
 	0%{
-		transform: rotate(90deg);
-		transform: scale(0,0);
+		-webkit-transform: rotate(90deg);
+		-webkit-transform: scale(0,0);
 	}
 	100%{
-		transform: rotate(0deg);
-		transform: scale(1,1);
+		-webkit-transform: rotate(0deg);
+		-webkit-transform: scale(1,1);
 	}
 }
 .achieve{
@@ -398,24 +398,24 @@ p{
 }
 @keyframes achieve{
 	0%{
-		transform: translate(0px,-1000px);
+		-webkit-transform: translate(0px,-1000px);
 	}
 	40%{
-		transform: translate(0px,-1000px);
+		-webkit-transform: translate(0px,-1000px);
 	}
 	80%{
-		transform: translate(0px,0px);
+		-webkit-transform: translate(0px,0px);
 		/*transform-origin: left top;*/
-		transform: rotate(-15deg);
+		-webkit-transform: rotate(-15deg);
 	}
 	90%{
-		transform: translate(0px,0px);
+		-webkit-transform: translate(0px,0px);
 		/*transform-origin: left top;*/
-		transform: rotate(15deg);
+		-webkit-transform: rotate(15deg);
 	}
 	100%{
-		transform: translate(0px,0px);
-		transform: rotate(0deg); 
+		-webkit-transform: translate(0px,0px);
+		-webkit-transform: rotate(0deg); 
 	}
 }
 .ach{
@@ -448,58 +448,58 @@ p{
 }
 @keyframes scholarship{
 	0%{
-		transform: translate(-1000px,0px);
+		-webkit-transform: translate(-1000px,0px);
 	}
 	47%{
-		transform: translate(-1000px,0px);
+		-webkit-transform: translate(-1000px,0px);
 	}
 	100%{
-		transform: translate(0px,0px);
+		-webkit-transform: translate(0px,0px);
 	}
 	
 }
 @keyframes model{
 	0%{
-		transform: translate(-1000px,0px);
+		-webkit-transform: translate(-1000px,0px);
 	}
 	41%{
-		transform: translate(-1000px,0px);
+		-webkit-transform: translate(-1000px,0px);
 	}
 	100%{
-		transform: translate(0px,0px);
+		-webkit-transform: translate(0px,0px);
 	}
 }
 @keyframes blog{
 	0%{
-		transform: translate(-1000px,0px);
+		-webkit-transform: translate(-1000px,0px);
 	}
 	70%{
-		transform: translate(-1000px,0px);
+		-webkit-transform: translate(-1000px,0px);
 	}
 	100%{
-		transform: translate(0px,0px);
+		-webkit-transform: translate(0px,0px);
 	}
 }
 @keyframes reward{
 	0%{
-		transform: translate(-1000px,0px);
+		-webkit-transform: translate(-1000px,0px);
 	}
 	64%{
-		transform: translate(-1000px,0px);
+		-webkit-transform: translate(-1000px,0px);
 	}
 	100%{
-		transform: translate(0px,0px);
+		-webkit-transform: translate(0px,0px);
 	}
 }
 @keyframes ss{
 	0%{
-		transform: translate(-1000px,0px);
+		-webkit-transform: translate(-1000px,0px);
 	}
 	51%{
-		transform: translate(-1000px,0px);
+		-webkit-transform: translate(-1000px,0px);
 	}
 	100%{
-		transform: translate(0px,0px);
+		-webkit-transform: translate(0px,0px);
 	}
 }
 .model{
@@ -534,12 +534,12 @@ p{
 }
 @keyframes okay{
 	0%{
-		transform: translate(-1000px,0px);
+		-webkit-transform: translate(-1000px,0px);
 		transform-origin: left;
 		transition:rotate(-10deg;);
 	}
 	100%{
-		transform: translate(-1000px,0px);
+		-webkit-transform: translate(-1000px,0px);
 		transform-origin: left;
 		transition:rotate(-10deg);
 	}
@@ -556,12 +556,12 @@ p{
 }
 @keyframes flower{
 	0%{
-		transform: translate(-1000px,0px);
+		-webkit-transform: translate(-1000px,0px);
 		transform-origin: left;
 		transition:rotate(10deg;);
 	}
 	100%{
-		transform: translate(-1000px,0px);
+		-webkit-transform: translate(-1000px,0px);
 		transform-origin: left;
 		transition:rotate(10deg);
 	}
@@ -578,12 +578,12 @@ p{
 }
 @keyframes attention{
 	0%{
-		transform: translate(-1000px,0px);
+		-webkit-transform: translate(-1000px,0px);
 		transform-origin: left;
 		transition:rotate(-13deg;);
 	}
 	100%{
-		transform: translate(-1000px,0px);
+		-webkit-transform: translate(-1000px,0px);
 		transform-origin: left;
 		transition:rotate(-13deg);
 	}
@@ -600,12 +600,12 @@ p{
 }
 @keyframes goON{
 	0%{
-		transform: translate(-1000px,0px);
+		-webkit-transform: translate(-1000px,0px);
 		transform-origin: left;
 		transition:rotate(4deg;);
 	}
 	100%{
-		transform: translate(-1000px,0px);
+		-webkit-transform: translate(-1000px,0px);
 		transform-origin: left;
 		transition:rotate(4deg);
 	}
