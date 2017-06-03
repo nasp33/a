@@ -33,14 +33,17 @@ p{
 @keyframes pr{
 	0%{
 		-webkit-transform:  translate(300px,-1500px)  rotate(-90deg);
+		transform:  translate(300px,-1500px)  rotate(-90deg);
 		-moz-transform:  translate(300px,-1500px)  rotate(-90deg);
 	}
 	50%{
 		-webkit-transform: rotate(-90deg) translate(300px,-1500px);
+		transform: rotate(-90deg) translate(300px,-1500px);
 		-moz-transform: rotate(-90deg) translate(300px,-1500px);
 	}
 	100%{
 		-webkit-transform: rotate(0deg) translate(0px,0px) ;
+		transform: rotate(0deg) translate(0px,0px) ;
 		-moz-transform: rotate(0deg) translate(0px,0px) ;
 	}
 
@@ -48,10 +51,12 @@ p{
 @keyframes wr{
 	0%{
 		-webkit-transform: translate(-1000px,0px);
+		transform: translate(-1000px,0px);
 		-moz-transform: translate(-1000px,0px);
 	}
 	100%{
 		-webkit-transform: translate(0px,0px);
+		transform: translate(0px,0px);
 		-moz-transform: translate(0px,0px);
 	}
 }
@@ -83,24 +88,24 @@ p{
 @keyframes first{
 	0%{
 		-webkit-transform: translate(-1000px,0px);
+		transform: translate(-1000px,0px);
 		-moz-transform: translate(-1000px,0px);
 	}
 	100%{
 		-webkit-transform: translate(0px,0px);
+		transform: translate(0px,0px);
 		-moz-transform: translate(0px,0px);
 	}
 }
 @keyframes name{
 	0%{
 		-webkit-transform: translate(1000px,0px);
-		-moz-transform: translate(1000px,0px);
-	}
-	50%{
-		-webkit-transform: translate(1000px,0px);
+		transform: translate(1000px,0px);
 		-moz-transform: translate(1000px,0px);
 	}
 	100%{
 		-webkit-transform: translate(0px,0px);
+		transform: translate(0px,0px);
 		-moz-transform: translate(0px,0px);
 	}
 }
@@ -136,10 +141,6 @@ p{
 		-webkit-transform: translate(1000px,0px);
 		-moz-transform: translate(1000px,0px);
 	}
-	50%{
-		-webkit-transform: translate(1000px,0px);
-		-moz-transform: translate(1000px,0px);
-	}
 	100%{
 		-webkit-transform: translate(0px,0px);
 		-moz-transform: translate(0px,0px);
@@ -156,10 +157,6 @@ p{
 		-webkit-transform: translate(1000px,0px);
 		-moz-transform: translate(1000px,0px);
 	}
-	50%{
-		-webkit-transform: translate(1000px,0px);
-		-moz-transform: translate(1000px,0px);
-	}
 	100%{
 		-webkit-transform: translate(0px,0px);
 		-moz-transform: translate(0px,0px);
@@ -167,10 +164,6 @@ p{
 }
 @keyframes patient{
 	0%{
-		-webkit-transform: translate(1000px,0px);
-		-moz-transform: translate(1000px,0px);
-	}
-	50%{
 		-webkit-transform: translate(1000px,0px);
 		-moz-transform: translate(1000px,0px);
 	}
@@ -452,30 +445,38 @@ p{
 @keyframes achieve{
 	0%{
 		-webkit-transform: translate(0px,-1000px);
+		transform: translate(0px,-1000px);
 		-moz-transform: translate(0px,-1000px);
 	}
 	40%{
 		-webkit-transform: translate(0px,-1000px);
+		transform: translate(0px,-1000px);
 		-moz-transform: translate(0px,-1000px);
 	}
 	80%{
 		-webkit-transform: translate(0px,0px);
+		transform: translate(0px,0px);
 		-moz-transform: translate(0px,0px);
 		/*transform-origin: left top;*/
 		-webkit-transform: rotate(-15deg);
+		transform: translate(0px,0px);
 		-moz-transform: rotate(-15deg);
 	}
 	90%{
 		-webkit-transform: translate(0px,0px);
+		transform: translate(0px,0px);
 		-moz-transform: translate(0px,0px);
 		/*transform-origin: left top;*/
 		-webkit-transform: rotate(15deg);
+		transform: rotate(15deg);
 		-moz-transform: rotate(15deg);
 	}
 	100%{
 		-webkit-transform: translate(0px,0px);
+		transform: translate(0px,0px);
 		-moz-transform: translate(0px,0px);
 		-webkit-transform: rotate(0deg); 
+		transform: rotate(0deg); 
 		-moz-transform: rotate(0deg); 
 	}
 }
