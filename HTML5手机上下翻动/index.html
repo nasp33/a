@@ -180,14 +180,14 @@
                         var Faudio=document.getElementById('Faudio')
                         var sing=document.getElementById('sing')
 
-                        sing.onmousemove=function(){
+                        sing.touchstart=function(){
                             Faudio.pause();
                             Jaudio.play();
                             return false;
                         };
 
                          var song1=document.getElementById('song1');
-                           song1.onmousemove=function(){
+                           song1.touchstart=function(){
                             Faudio.play();
                            Jaudio.pause();
                            return false;
