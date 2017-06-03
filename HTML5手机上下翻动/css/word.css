@@ -241,7 +241,7 @@ p{
 }
 .performance{
 	font-size: 30px;
-	width: 247px;
+	width: 244px;
 	margin-left: auto;
 	margin-right: auto;
 	font-family:'chenwixun-jiana5d6efaf118ead';
@@ -419,7 +419,7 @@ p{
 	}
 }
 .ach{
-	font-size: 32px;
+	font-size: 34px;
 	width: 220px;
 	/*background: green;*/
 	/*margin-top: 4px;*/
@@ -721,6 +721,7 @@ p{
 	font-size: 28px;
 	padding-top: 20px;
 	text-indent: 28px;
+	padding-left:2px;
 }
 #w{
 	padding: 100px;
