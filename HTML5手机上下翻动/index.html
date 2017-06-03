@@ -181,14 +181,14 @@
                         var Faudio=document.getElementById('Faudio')
                         var sing=document.getElementById('sing')
 
-                        sing.touchstart=function(){
+                        sing.onmousemove=function(){
                             Faudio.pause();
                             Jaudio.play();
                             return false;
                         };
 
                          var song1=document.getElementById('song1');
-                           song1.touchstart=function(){
+                           song1.onmousemove=function(){
                             Faudio.play();
                            Jaudio.pause();
                            return false;
