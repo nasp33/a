@@ -33,21 +33,26 @@ p{
 @keyframes pr{
 	0%{
 		-webkit-transform:  translate(300px,-1500px)  rotate(-90deg);
+		-moz-transform:  translate(300px,-1500px)  rotate(-90deg);
 	}
 	50%{
 		-webkit-transform: rotate(-90deg) translate(300px,-1500px);
+		-moz-transform: rotate(-90deg) translate(300px,-1500px);
 	}
 	100%{
 		-webkit-transform: rotate(0deg) translate(0px,0px) ;
+		-moz-transform: rotate(0deg) translate(0px,0px) ;
 	}
 
 }
 @keyframes wr{
 	0%{
 		-webkit-transform: translate(-1000px,0px);
+		-moz-transform: translate(-1000px,0px);
 	}
 	100%{
 		-webkit-transform: translate(0px,0px);
+		-moz-transform: translate(0px,0px);
 	}
 }
 .first{
@@ -78,20 +83,25 @@ p{
 @keyframes first{
 	0%{
 		-webkit-transform: translate(-1000px,0px);
+		-moz-transform: translate(-1000px,0px);
 	}
 	100%{
 		-webkit-transform: translate(0px,0px);
+		-moz-transform: translate(0px,0px);
 	}
 }
 @keyframes name{
 	0%{
 		-webkit-transform: translate(1000px,0px);
+		-moz-transform: translate(1000px,0px);
 	}
 	50%{
 		-webkit-transform: translate(1000px,0px);
+		-moz-transform: translate(1000px,0px);
 	}
 	100%{
 		-webkit-transform: translate(0px,0px);
+		-moz-transform: translate(0px,0px);
 	}
 }
 .three-page{
@@ -114,20 +124,25 @@ p{
 @keyframes and-then{
 	0%{
 		-webkit-transform: translate(1000px,0px);
+		-moz-transform: translate(1000px,0px);
 	}
 	100%{
 		-webkit-transform: translate(0px,0px);
+		-moz-transform: translate(0px,0px);
 	}
 }
 @keyframes joke{
 	0%{
 		-webkit-transform: translate(1000px,0px);
+		-moz-transform: translate(1000px,0px);
 	}
 	50%{
 		-webkit-transform: translate(1000px,0px);
+		-moz-transform: translate(1000px,0px);
 	}
 	100%{
 		-webkit-transform: translate(0px,0px);
+		-moz-transform: translate(0px,0px);
 	}
 }
 .what{
@@ -139,23 +154,29 @@ p{
 @keyframes what{
 	0%{
 		-webkit-transform: translate(1000px,0px);
+		-moz-transform: translate(1000px,0px);
 	}
 	50%{
 		-webkit-transform: translate(1000px,0px);
+		-moz-transform: translate(1000px,0px);
 	}
 	100%{
 		-webkit-transform: translate(0px,0px);
+		-moz-transform: translate(0px,0px);
 	}
 }
 @keyframes patient{
 	0%{
 		-webkit-transform: translate(1000px,0px);
+		-moz-transform: translate(1000px,0px);
 	}
 	50%{
 		-webkit-transform: translate(1000px,0px);
+		-moz-transform: translate(1000px,0px);
 	}
 	100%{
 		-webkit-transform: translate(0px,0px);
+		-moz-transform: translate(0px,0px);
 	}
 }
 .w{
@@ -174,9 +195,11 @@ p{
 @keyframes introduce{
 	0%{
 		-webkit-transform: rotate3d(100,0,0,90deg);
+		-moz-transform: rotate3d(100,0,0,90deg);
 	}
 	100%{
 		-webkit-transform: rotate3d(0,0,0,0deg);
+		-moz-transform: rotate3d(0,0,0,0deg);
 	}
 }
 .about-me{
@@ -191,9 +214,11 @@ p{
 @keyframes aboutMe{
 	0%{
 		-webkit-transform: rotate3d(0,100,0,90deg);
+		-moz-transform: rotate3d(0,100,0,90deg);
 	}
 	100%{
 		-webkit-transform: rotate3d(0,0,0,0deg);
+		-moz-transform: rotate3d(0,0,0,0deg);
 	}
 }
 .me{
@@ -210,9 +235,11 @@ p{
 @keyframes me{
 	0%{
 		-webkit-transform: rotate3d(100,0,0,90deg);
+		-moz-transform: rotate3d(100,0,0,90deg);
 	}
 	100%{
 		-webkit-transform: rotate3d(0,0,0,0deg);
+		-moz-transform: rotate3d(0,0,0,0deg);
 	}
 }
 .school{
@@ -228,15 +255,19 @@ p{
 @keyframes school{
 	0%{
 		-webkit-transform: translate(-1000px,0px);
+		-moz-transform: translate(-1000px,0px);
 	}
 	80%{
 		-webkit-transform: translate(20px,0px);
+		-moz-transform: translate(20px,0px);
 	}
 	90%{
 		-webkit-transform: translate(-20px,0px);
+		-moz-transform: translate(-20px,0px);
 	}
 	100%{
 		-webkit-transform: translate(0px,0px);
+		-moz-transform: translate(0px,0px);
 	}
 }
 .performance{
@@ -251,15 +282,19 @@ p{
 @keyframes performance{
 	0%{
 		-webkit-transform: translate(1000px,0px);
+		-moz-transform: translate(1000px,0px);
 	}
 	80%{
 		-webkit-transform: translate(-20px,0px);
+		-moz-transform: translate(-20px,0px);
 	}
 	90%{
 		-webkit-transform: translate(20px,0px);
+		-moz-transform: translate(20px,0px);
 	}
 	100%{
 		-webkit-transform: translate(0px,0px);
+		-moz-transform: translate(0px,0px);
 	}
 }
 .school-life{
@@ -276,12 +311,15 @@ p{
 @keyframes schoolLife{
 	0%{
 		-webkit-transform: rotate3d(0,100,0,90deg);
+		-moz-transform: rotate3d(0,100,0,90deg);
 	}
 	80%{
 		-webkit-transform: rotate3d(0,100,0,-20deg);
+		-moz-transform: rotate3d(0,100,0,-20deg);
 	}
 	100%{
 		-webkit-transform: rotate3d(0,0,0,0deg);
+		-moz-transform: rotate3d(0,0,0,0deg);
 	}
 }
 
@@ -298,9 +336,11 @@ p{
 @keyframes then{
 	0%{
 		-webkit-transform: rotate(-90deg);
+		-moz-transform: rotate(-90deg);
 	}
 	100%{
 		-webkit-transform: rotate(0deg);
+		-moz-transform: rotate(0deg);
 	}
 }
 .hobby{
@@ -321,9 +361,11 @@ p{
 @keyframes such{
 	0%{
 		-webkit-transform: translate(-1000px,0px);
+		-moz-transform: translate(-1000px,0px);
 	}
 	100%{
 		-webkit-transform: translate(0px,0px);
+		-moz-transform: translate(0px,0px);
 	}
 }
 .above{
@@ -335,9 +377,11 @@ p{
 @keyframes above{
 	0%{
 		-webkit-transform: scale(0,0);
+		-moz-transform: scale(0,0);
 	}
 	100%{
 		-webkit-transform: scale(1,1);
+		-moz-transform: scale(1,1);
 	}
 }
 .like{
@@ -349,9 +393,11 @@ p{
 @keyframes like{
 	0%{
 		-webkit-transform: rotate(90deg);
+		-moz-transform: rotate(90deg);
 	}
 	100%{
 		-webkit-transform: rotate(0deg);
+		-moz-transform: rotate(0deg);
 	}
 }
 .then{
@@ -367,11 +413,15 @@ p{
 @keyframes intere{
 	0%{
 		-webkit-transform: rotate(90deg);
+		-moz-transform: rotate(90deg);
 		-webkit-transform: scale(0,0);
+		-moz-transform: scale(0,0);
 	}
 	100%{
 		-webkit-transform: rotate(0deg);
+		-moz-transform: rotate(0deg);
 		-webkit-transform: scale(1,1);
+		-moz-transform: scale(1,1);
 	}
 }
 .achieve{
@@ -387,35 +437,46 @@ p{
 }
 @keyframes ach{
 	0%{
-		transform: scale(0,0) rotate(180deg);
+		-webkit-transform: scale(0,0) rotate(180deg);
+		-moz-transform: scale(0,0) rotate(180deg);
 	}
 	50%{
-		transform: scale(0,0) rotate(180deg);
+		-webkit-transform: scale(0,0) rotate(180deg);
+		-moz-transform: scale(0,0) rotate(180deg);
 	}
 	100%{
-		transform: scale(1,1) rotate(0deg);
+		-webkit-transform: scale(1,1) rotate(0deg);
+		-moz-transform: scale(1,1) rotate(0deg);
 	}	
 }
 @keyframes achieve{
 	0%{
 		-webkit-transform: translate(0px,-1000px);
+		-moz-transform: translate(0px,-1000px);
 	}
 	40%{
 		-webkit-transform: translate(0px,-1000px);
+		-moz-transform: translate(0px,-1000px);
 	}
 	80%{
 		-webkit-transform: translate(0px,0px);
+		-moz-transform: translate(0px,0px);
 		/*transform-origin: left top;*/
 		-webkit-transform: rotate(-15deg);
+		-moz-transform: rotate(-15deg);
 	}
 	90%{
 		-webkit-transform: translate(0px,0px);
+		-moz-transform: translate(0px,0px);
 		/*transform-origin: left top;*/
 		-webkit-transform: rotate(15deg);
+		-moz-transform: rotate(15deg);
 	}
 	100%{
 		-webkit-transform: translate(0px,0px);
+		-moz-transform: translate(0px,0px);
 		-webkit-transform: rotate(0deg); 
+		-moz-transform: rotate(0deg); 
 	}
 }
 .ach{
@@ -449,57 +510,72 @@ p{
 @keyframes scholarship{
 	0%{
 		-webkit-transform: translate(-1000px,0px);
+		-moz-transform: translate(-1000px,0px);
 	}
 	47%{
 		-webkit-transform: translate(-1000px,0px);
+		-moz-transform: translate(-1000px,0px);
 	}
 	100%{
 		-webkit-transform: translate(0px,0px);
+		-moz-transform: translate(0px,0px);
 	}
 	
 }
 @keyframes model{
 	0%{
 		-webkit-transform: translate(-1000px,0px);
+		-moz-transform: translate(-1000px,0px);
 	}
 	41%{
 		-webkit-transform: translate(-1000px,0px);
+		-moz-transform: translate(-1000px,0px);
 	}
 	100%{
 		-webkit-transform: translate(0px,0px);
+		-moz-transform: translate(0px,0px);
 	}
 }
 @keyframes blog{
 	0%{
 		-webkit-transform: translate(-1000px,0px);
+		-moz-transform: translate(-1000px,0px);
 	}
 	70%{
 		-webkit-transform: translate(-1000px,0px);
+		-moz-transform: translate(-1000px,0px);
 	}
 	100%{
 		-webkit-transform: translate(0px,0px);
+		-moz-transform: translate(0px,0px);
 	}
 }
 @keyframes reward{
 	0%{
 		-webkit-transform: translate(-1000px,0px);
+		-moz-transform: translate(-1000px,0px);
 	}
 	64%{
 		-webkit-transform: translate(-1000px,0px);
+		-moz-transform: translate(-1000px,0px);
 	}
 	100%{
 		-webkit-transform: translate(0px,0px);
+		-moz-transform: translate(0px,0px);
 	}
 }
 @keyframes ss{
 	0%{
 		-webkit-transform: translate(-1000px,0px);
+		-moz-transform: translate(-1000px,0px);
 	}
 	51%{
 		-webkit-transform: translate(-1000px,0px);
+		-moz-transform: translate(-1000px,0px);
 	}
 	100%{
 		-webkit-transform: translate(0px,0px);
+		-moz-transform: translate(0px,0px);
 	}
 }
 .model{
@@ -535,13 +611,19 @@ p{
 @keyframes okay{
 	0%{
 		-webkit-transform: translate(-1000px,0px);
-		transform-origin: left;
-		transition:rotate(-10deg;);
+		-moz-transform: translate(-1000px,0px);
+		-webkit-transform-origin: left;
+		-moz-transform-origin: left;
+		-webkit-transition:rotate(-10deg);
+		-moz-transition:rotate(-10deg);
 	}
 	100%{
 		-webkit-transform: translate(-1000px,0px);
-		transform-origin: left;
-		transition:rotate(-10deg);
+		-moz-transform: translate(-1000px,0px);
+		-webkit-transform-origin: left;
+		-moz-transform-origin: left;
+		-webkit-transition:rotate(-10deg);
+		-moz-transition:rotate(-10deg);
 	}
 }
 .flower1{
@@ -557,8 +639,11 @@ p{
 @keyframes flower{
 	0%{
 		-webkit-transform: translate(-1000px,0px);
+		-webkit-transform: translate(-1000px,0px);
 		transform-origin: left;
-		transition:rotate(10deg;);
+		transform-origin: left;
+		transition:rotate(10deg);
+		transition:rotate(10deg);
 	}
 	100%{
 		-webkit-transform: translate(-1000px,0px);
