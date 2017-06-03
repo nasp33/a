@@ -158,23 +158,23 @@
                    <!--  <p><input type="button" onclick="window.location.href='#'" value="1" class="btn1"></p> -->
                     <audio src="music/twins.mp3" id="Jaudio" class="media-audio" autoplay preload loop="loop"></audio>  
                     <script type="text/javascript">
-                        // function audioAutoPlay(id){  
-                        //     var audio = document.getElementById(id),  
-                        //         play = function(){  
-                        //             audio.play();  
-                        //             document.removeEventListener("touchstart",play, false);  
-                        //         };  
-                        //     audio.play();  
-                        //     document.addEventListener("WeixinJSBridgeReady", function () {  
-                        //         play();  
-                        //     }, false);  
-                        //     document.addEventListener('YixinJSBridgeReady', function() {  
-                        //         play();  
-                        //     }, false);  
-                        //     document.addEventListener("touchstart",play, false);  
-                        // }  
-                        // audioAutoPlay('Faudio');
-                        // audioAutoPlay('Jaudio');
+                        function audioAutoPlay(id){  
+                            var audio = document.getElementById(id),  
+                                play = function(){  
+                                    audio.play();  
+                                    document.removeEventListener("touchstart",play, false);  
+                                };  
+                            audio.play();  
+                            document.addEventListener("WeixinJSBridgeReady", function () {  
+                                play();  
+                            }, false);  
+                            document.addEventListener('YixinJSBridgeReady', function() {  
+                                play();  
+                            }, false);  
+                            document.addEventListener("touchstart",play, false);  
+                        }  
+                        audioAutoPlay('Faudio');
+                        audioAutoPlay('Jaudio');
 
                         var Jaudio=document.getElementById('Jaudio')
                         var Faudio=document.getElementById('Faudio')
