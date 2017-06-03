@@ -431,7 +431,7 @@ p{
 }
 .got{
 	width: 480px;
-	font-size: 26px;
+	font-size: 24px;
 	margin-left: auto;
 	margin-right: auto;
 	padding: 10px;
@@ -714,14 +714,14 @@ p{
 }
 .namer{
 	color: red;
-	font-size: 10em;
-	text-indent: 3em;
+	font-size: 11em;
+	text-indent: 4em;
 }
 #aa{
 	font-size: 28px;
 	padding-top: 20px;
 	text-indent: 28px;
-	padding-left:5px;
+	padding-left:7px;
 }
 #w{
 	padding: 100px;
