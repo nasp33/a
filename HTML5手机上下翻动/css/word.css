@@ -509,7 +509,7 @@ p{
 	font-size: 24px;
 }
 .scholarship{
-	animation:scholarship 4s ease-out;
+	animation:scholarship 4s linear;
 }
 @-webkit-keyframes scholarship{
 	0%{
@@ -573,26 +573,26 @@ p{
 		-webkit-transform: translate(-1000px,0px);
 		-moz-transform: translate(-1000px,0px);
 	}
-	51%{
+/* 	51%{
 		-webkit-transform: translate(-1000px,0px);
 		-moz-transform: translate(-1000px,0px);
-	}
+	} */
 	100%{
 		-webkit-transform: translate(0px,0px);
 		-moz-transform: translate(0px,0px);
 	}
 }
 .model{
-	animation:model 4s ease-out;
+	animation:model 4s linear;
 }
 .blog{
-	animation:blog 4.2s ease-out;
+	animation:blog 4.2s linear;
 }
 .reward{
-	animation:reward 4.2s ease-out;
+	animation:reward 4.2s linear;
 }
 .ss{
-	animation:ss 4s ease-out;
+	animation:ss 4s linear;
 }
 .down{
 	width: 550px;
