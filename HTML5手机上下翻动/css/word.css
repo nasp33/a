@@ -78,7 +78,7 @@ p{
 	float: right;
 	margin-top: 50px;
 	padding-right: 10px;
-	animation:first 1s linear; 
+	animation:name 1s linear; 
 	color:rgb(40, 40, 40);
 }
 .name-span{
@@ -101,7 +101,7 @@ p{
 	0%{
 		-webkit-transform: translate(1000px,0px);
 		transform: translate(1000px,0px);
-		-moz-transform: translate(1000px,0px);
+		-moz-transform: translate(-1000px,0px);
 	}
 	100%{
 		-webkit-transform: translate(0px,0px);
