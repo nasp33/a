@@ -251,18 +251,22 @@ p{
 @-webkit-keyframes school{
 	0%{
 		-webkit-transform: translate(-1000px,0px);
+		transform: translate(-1000px,0px);
 		-moz-transform: translate(-1000px,0px);
 	}
 	80%{
 		-webkit-transform: translate(20px,0px);
+		transform: translate(20px,0px);
 		-moz-transform: translate(20px,0px);
 	}
 	90%{
 		-webkit-transform: translate(-20px,0px);
+		transform: translate(-20px,0px);
 		-moz-transform: translate(-20px,0px);
 	}
 	100%{
 		-webkit-transform: translate(0px,0px);
+		transform: translate(0px,0px);
 		-moz-transform: translate(0px,0px);
 	}
 }
@@ -277,19 +281,23 @@ p{
 }
 @-webkit-keyframes performance{
 	0%{
-		-webkit-transform: translate(-1000px,0px);
-		-moz-transform: translate(-1000px,0px);
+		-webkit-transform: translate(1000px,0px);
+		transform: translate(1000px,0px);
+		-moz-transform: translate(1000px,0px);
 	}
 	80%{
 		-webkit-transform: translate(-20px,0px);
+		transform: translate(-20px,0px);
 		-moz-transform: translate(-20px,0px);
 	}
 	90%{
 		-webkit-transform: translate(20px,0px);
+		transform: translate(20px,0px);
 		-moz-transform: translate(20px,0px);
 	}
 	100%{
 		-webkit-transform: translate(0px,0px);
+		transform: translate(0px,0px);
 		-moz-transform: translate(0px,0px);
 	}
 }
@@ -357,10 +365,12 @@ p{
 @-webkit-keyframes such{
 	0%{
 		-webkit-transform: translate(-1000px,0px);
+		transform: translate(-1000px,0px);
 		-moz-transform: translate(-1000px,0px);
 	}
 	100%{
 		-webkit-transform: translate(0px,0px);
+		transform: translate(0px,0px);
 		-moz-transform: translate(0px,0px);
 	}
 }
@@ -509,17 +519,17 @@ p{
 	font-size: 24px;
 }
 .scholarship{
-	animation:scholarship 4s linear;
+	animation:scholarship 3.7s linear;
 }
 @-webkit-keyframes scholarship{
 	0%{
 		-webkit-transform: translate(-1000px,0px);
 		-moz-transform: translate(-1000px,0px);
 	}
-	47%{
+/* 	47%{
 		-webkit-transform: translate(-1000px,0px);
 		-moz-transform: translate(-1000px,0px);
-	}
+	} */
 	100%{
 		-webkit-transform: translate(0px,0px);
 		-moz-transform: translate(0px,0px);
@@ -531,10 +541,10 @@ p{
 		-webkit-transform: translate(-1000px,0px);
 		-moz-transform: translate(-1000px,0px);
 	}
-	41%{
+/* 	41%{
 		-webkit-transform: translate(-1000px,0px);
 		-moz-transform: translate(-1000px,0px);
-	}
+	} */
 	100%{
 		-webkit-transform: translate(0px,0px);
 		-moz-transform: translate(0px,0px);
@@ -545,10 +555,10 @@ p{
 		-webkit-transform: translate(-1000px,0px);
 		-moz-transform: translate(-1000px,0px);
 	}
-	70%{
+/* 	70%{
 		-webkit-transform: translate(-1000px,0px);
 		-moz-transform: translate(-1000px,0px);
-	}
+	} */
 	100%{
 		-webkit-transform: translate(0px,0px);
 		-moz-transform: translate(0px,0px);
@@ -559,10 +569,10 @@ p{
 		-webkit-transform: translate(-1000px,0px);
 		-moz-transform: translate(-1000px,0px);
 	}
-	64%{
+/* 	64%{
 		-webkit-transform: translate(-1000px,0px);
 		-moz-transform: translate(-1000px,0px);
-	}
+	} */
 	100%{
 		-webkit-transform: translate(0px,0px);
 		-moz-transform: translate(0px,0px);
@@ -583,13 +593,13 @@ p{
 	}
 }
 .model{
-	animation:model 4s linear;
+	animation:model 3.8s linear;
 }
 .blog{
-	animation:blog 4.2s linear;
+	animation:blog 4.1s linear;
 }
 .reward{
-	animation:reward 4.2s linear;
+	animation:reward 4.4s linear;
 }
 .ss{
 	animation:ss 4s linear;
