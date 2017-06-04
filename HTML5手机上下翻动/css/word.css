@@ -78,7 +78,7 @@ p{
 	float: right;
 	margin-top: 50px;
 	padding-right: 10px;
-	animation:name 1s linear; 
+	animation:first 0.8s linear; 
 	color:rgb(40, 40, 40);
 }
 .name-span{
