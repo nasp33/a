@@ -99,9 +99,9 @@ p{
 }
 @-webkit-keyframes name{
 	0%{
-		-webkit-transform: translate(1000px,0px);
-		transform: translate(1000px,0px);
-		-moz-transform: translate(-1000px,0px);
+		-webkit-transform: translate(2000px,0px);
+		transform: translate(2000px,0px);
+		-moz-transform: translate(2000px,0px);
 	}
 	100%{
 		-webkit-transform: translate(0px,0px);
@@ -128,8 +128,8 @@ p{
 }
 @-webkit-keyframes and-then{
 	0%{
-		-webkit-transform: translate(1000px,0px);
-		-moz-transform: translate(1000px,0px);
+		-webkit-transform: translate(-1000px,0px);
+		-moz-transform: translate(-1000px,0px);
 	}
 	100%{
 		-webkit-transform: translate(0px,0px);
@@ -138,8 +138,8 @@ p{
 }
 @-webkit-keyframes joke{
 	0%{
-		-webkit-transform: translate(1000px,0px);
-		-moz-transform: translate(1000px,0px);
+		-webkit-transform: translate(-1000px,0px);
+		-moz-transform: translate(-1000px,0px);
 	}
 	100%{
 		-webkit-transform: translate(0px,0px);
@@ -154,8 +154,8 @@ p{
 }
 @-webkit-keyframes what{
 	0%{
-		-webkit-transform: translate(1000px,0px);
-		-moz-transform: translate(1000px,0px);
+		-webkit-transform: translate(-1000px,0px);
+		-moz-transform: translate(-1000px,0px);
 	}
 	100%{
 		-webkit-transform: translate(0px,0px);
@@ -164,8 +164,8 @@ p{
 }
 @-webkit-keyframes patient{
 	0%{
-		-webkit-transform: translate(1000px,0px);
-		-moz-transform: translate(1000px,0px);
+		-webkit-transform: translate(-1000px,0px);
+		-moz-transform: translate(-1000px,0px);
 	}
 	100%{
 		-webkit-transform: translate(0px,0px);
@@ -274,8 +274,8 @@ p{
 }
 @-webkit-keyframes performance{
 	0%{
-		-webkit-transform: translate(1000px,0px);
-		-moz-transform: translate(1000px,0px);
+		-webkit-transform: translate(-1000px,0px);
+		-moz-transform: translate(-1000px,0px);
 	}
 	80%{
 		-webkit-transform: translate(-20px,0px);
