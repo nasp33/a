@@ -73,12 +73,12 @@ p{
 .name{
 	display: block;
 	/*background: blue;*/
-	font-size: 7em;
+	font-size: 5em;
 	width: 260px;
 	float: right;
 	margin-top: 50px;
 	padding-right: 10px;
-	animation:first 0.8s linear; 
+	animation:first 1s linear; 
 	color:rgb(40, 40, 40);
 }
 .name-span{
