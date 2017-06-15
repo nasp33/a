@@ -251,22 +251,10 @@ p{
 @-webkit-keyframes school{
 	0%{
 		-webkit-transform: translate(-1000px,0px);
-		transform: translate(-1000px,0px);
 		-moz-transform: translate(-1000px,0px);
 	}
-/* 	80%{
-		-webkit-transform: translate(20px,0px);
-		transform: translate(20px,0px);
-		-moz-transform: translate(20px,0px);
-	}
-	90%{
-		-webkit-transform: translate(-20px,0px);
-		transform: translate(-20px,0px);
-		-moz-transform: translate(-20px,0px);
-	} */
 	100%{
 		-webkit-transform: translate(0px,0px);
-		transform: translate(0px,0px);
 		-moz-transform: translate(0px,0px);
 	}
 }
@@ -281,22 +269,12 @@ p{
 }
 @-webkit-keyframes performance{
 	0%{
-		-webkit-transform: translate(1000px,0px);
-		transform: translate(1000px,0px);
+		-webkit-transform: translate(-1000px,0px);
+		-moz-transform: translate(-1000px,0px);
 	}
-/* 	80%{
-		-webkit-transform: translate(-20px,0px);
-		transform: translate(-20px,0px);
-		-moz-transform: translate(-20px,0px);
-	}
-	90%{
-		-webkit-transform: translate(20px,0px);
-		transform: translate(20px,0px);
-		-moz-transform: translate(20px,0px);
-	} */
 	100%{
 		-webkit-transform: translate(0px,0px);
-		transform: translate(0px,0px);
+		-moz-transform: translate(0px,0px);
 	}
 }
 .school-life{
@@ -358,17 +336,15 @@ p{
 	font-weight: bold;
 	font-size: 30px;
 	margin-top: 10px;
-	animation:such 1s linear; 
+	animation:and-then 1s linear; 
 }
 @-webkit-keyframes such{
 	0%{
 		-webkit-transform: translate(-1000px,0px);
-		transform: translate(-1000px,0px);
 		-moz-transform: translate(-1000px,0px);
 	}
 	100%{
 		-webkit-transform: translate(0px,0px);
-		transform: translate(0px,0px);
 		-moz-transform: translate(0px,0px);
 	}
 }
@@ -456,38 +432,38 @@ p{
 @-webkit-keyframes achieve{
 	0%{
 		-webkit-transform: translate(0px,-1000px);
-		transform: translate(0px,-1000px);
+/* 		transform: translate(0px,-1000px); */
 		-moz-transform: translate(0px,-1000px);
 	}
 	40%{
 		-webkit-transform: translate(0px,-1000px);
-		transform: translate(0px,-1000px);
+/* 		transform: translate(0px,-1000px); */
 		-moz-transform: translate(0px,-1000px);
 	}
 	80%{
 		-webkit-transform: translate(0px,0px);
-		transform: translate(0px,0px);
+/* 		transform: translate(0px,0px); */
 		-moz-transform: translate(0px,0px);
 		/*transform-origin: left top;*/
 		-webkit-transform: rotate(-15deg);
-		transform: translate(0px,0px);
+/* 		transform: translate(0px,0px); */
 		-moz-transform: rotate(-15deg);
 	}
 	90%{
 		-webkit-transform: translate(0px,0px);
-		transform: translate(0px,0px);
+/* 		transform: translate(0px,0px); */
 		-moz-transform: translate(0px,0px);
 		/*transform-origin: left top;*/
 		-webkit-transform: rotate(15deg);
-		transform: rotate(15deg);
+/* 		transform: rotate(15deg); */
 		-moz-transform: rotate(15deg);
 	}
 	100%{
 		-webkit-transform: translate(0px,0px);
-		transform: translate(0px,0px);
+/* 		transform: translate(0px,0px); */
 		-moz-transform: translate(0px,0px);
 		-webkit-transform: rotate(0deg); 
-		transform: rotate(0deg); 
+/* 		transform: rotate(0deg);  */
 		-moz-transform: rotate(0deg); 
 	}
 }
