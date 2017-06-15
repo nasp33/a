@@ -254,7 +254,7 @@ p{
 		transform: translate(-1000px,0px);
 		-moz-transform: translate(-1000px,0px);
 	}
-	80%{
+/* 	80%{
 		-webkit-transform: translate(20px,0px);
 		transform: translate(20px,0px);
 		-moz-transform: translate(20px,0px);
@@ -263,7 +263,7 @@ p{
 		-webkit-transform: translate(-20px,0px);
 		transform: translate(-20px,0px);
 		-moz-transform: translate(-20px,0px);
-	}
+	} */
 	100%{
 		-webkit-transform: translate(0px,0px);
 		transform: translate(0px,0px);
@@ -285,7 +285,7 @@ p{
 		transform: translate(1000px,0px);
 		-moz-transform: translate(1000px,0px);
 	}
-	80%{
+/* 	80%{
 		-webkit-transform: translate(-20px,0px);
 		transform: translate(-20px,0px);
 		-moz-transform: translate(-20px,0px);
@@ -294,7 +294,7 @@ p{
 		-webkit-transform: translate(20px,0px);
 		transform: translate(20px,0px);
 		-moz-transform: translate(20px,0px);
-	}
+	} */
 	100%{
 		-webkit-transform: translate(0px,0px);
 		transform: translate(0px,0px);
