@@ -283,7 +283,6 @@ p{
 	0%{
 		-webkit-transform: translate(1000px,0px);
 		transform: translate(1000px,0px);
-		-moz-transform: translate(1000px,0px);
 	}
 /* 	80%{
 		-webkit-transform: translate(-20px,0px);
@@ -298,7 +297,6 @@ p{
 	100%{
 		-webkit-transform: translate(0px,0px);
 		transform: translate(0px,0px);
-		-moz-transform: translate(0px,0px);
 	}
 }
 .school-life{
@@ -817,7 +815,7 @@ p{
 	text-indent: 3em;
 }
 #aa{
-	font-size: 28px;
+	font-size: 25px;
 	padding-top: 20px;
 	text-indent: 28px;
 	padding-left:7px;
