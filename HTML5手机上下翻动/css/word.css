@@ -407,7 +407,7 @@ p{
 	margin-right: auto;
 	margin-top: 230px;
 	/*background: red;*/
-	animation:achieve 1.8s ease-out; 
+	animation:achieve 1.5s linear; 
 }
 @-webkit-keyframes ach{
 	0%{
