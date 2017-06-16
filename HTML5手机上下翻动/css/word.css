@@ -338,8 +338,8 @@ p{
 }
 @-webkit-keyframes such{
 	0%{
-		-webkit-transform: rotate(90deg);
-		-moz-transform: rotate(90deg);
+		-webkit-transform: rotate(-90deg);
+		-moz-transform: rotate(-90deg);
 	}
 	100%{
 		-webkit-transform: rotate(0deg);
@@ -411,7 +411,7 @@ p{
 	margin-right: auto;
 	margin-top: 230px;
 	/*background: red;*/
-	animation:achieve 1.1s ease-out; 
+	animation:achieve 1.8s ease-out; 
 }
 @-webkit-keyframes ach{
 	0%{
@@ -446,7 +446,7 @@ p{
 	margin-right: auto;
 	font-family:'chenwixun-jianaf3a8d1e718ead';
 	font-weight: bold;
-	animation:ach 2.2s ease-out; 
+	animation:ach 1.8s ease-out; 
 }
 .got{
 	width: 480px;
