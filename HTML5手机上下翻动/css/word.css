@@ -103,12 +103,10 @@ p{
 @-webkit-keyframes name{
 	0%{
 		-webkit-transform: translate(2000px,0px);
-		transform: translate(2000px,0px);
 		-moz-transform: translate(2000px,0px);
 	}
 	100%{
 		-webkit-transform: translate(0px,0px);
-		transform: translate(0px,0px);
 		-moz-transform: translate(0px,0px);
 	}
 }
@@ -246,7 +244,7 @@ p{
 	margin-right: auto;
 	margin-top: 230px;
 	font-family:'jin_mei_mxplzxa5d7721ac18ead';
-	animation:and-then 1s linear; 
+	animation:school 1s linear; 
 }
 @-webkit-keyframes school{
 	0%{
@@ -340,14 +338,13 @@ p{
 }
 @-webkit-keyframes such{
 	0%{
-		-webkit-transform: scale(0,0);
-		-moz-transform: scale(0,0);
+		-webkit-transform: rotate(90deg);
+		-moz-transform: rotate(90deg);
 	}
 	100%{
-		-webkit-transform: scale(1,1);
-		-moz-transform: scale(1,1);
+		-webkit-transform: rotate(0deg);
+		-moz-transform: rotate(0deg);
 	}
-}
 .above{
 	font-size: 14px;
 	margin-top: 10px;
@@ -431,40 +428,12 @@ p{
 }
 @-webkit-keyframes achieve{
 	0%{
-		-webkit-transform: translate(0px,-1000px);
-/* 		transform: translate(0px,-1000px); */
-		-moz-transform: translate(0px,-1000px);
-	}
-	40%{
-		-webkit-transform: translate(0px,-1000px);
-/* 		transform: translate(0px,-1000px); */
-		-moz-transform: translate(0px,-1000px);
-	}
-	80%{
-		-webkit-transform: translate(0px,0px);
-/* 		transform: translate(0px,0px); */
-		-moz-transform: translate(0px,0px);
-		/*transform-origin: left top;*/
-		-webkit-transform: rotate(-15deg);
-/* 		transform: translate(0px,0px); */
-		-moz-transform: rotate(-15deg);
-	}
-	90%{
-		-webkit-transform: translate(0px,0px);
-/* 		transform: translate(0px,0px); */
-		-moz-transform: translate(0px,0px);
-		/*transform-origin: left top;*/
-		-webkit-transform: rotate(15deg);
-/* 		transform: rotate(15deg); */
-		-moz-transform: rotate(15deg);
+		-webkit-transform: scale(0,0);
+		-moz-transform: scale(0,0);
 	}
 	100%{
-		-webkit-transform: translate(0px,0px);
-/* 		transform: translate(0px,0px); */
-		-moz-transform: translate(0px,0px);
-		-webkit-transform: rotate(0deg); 
-/* 		transform: rotate(0deg);  */
-		-moz-transform: rotate(0deg); 
+		-webkit-transform: scale(1,1);
+		-moz-transform: scale(1,1);
 	}
 }
 .ach{
