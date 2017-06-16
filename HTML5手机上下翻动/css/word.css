@@ -249,11 +249,9 @@ p{
 @-webkit-keyframes school{
 	0%{
 		-webkit-transform: translate(-1000px,0px);
-		-moz-transform: translate(-1000px,0px);
 	}
 	100%{
 		-webkit-transform: translate(0px,0px);
-		-moz-transform: translate(0px,0px);
 	}
 }
 .performance{
@@ -267,12 +265,10 @@ p{
 }
 @-webkit-keyframes performance{
 	0%{
-		-webkit-transform: translate(-1000px,0px);
-		-moz-transform: translate(-1000px,0px);
+		-webkit-transform: translate(1000px,0px);
 	}
 	100%{
 		-webkit-transform: translate(0px,0px);
-		-moz-transform: translate(0px,0px);
 	}
 }
 .school-life{
