@@ -442,7 +442,7 @@ p{
 	margin-right: auto;
 	font-family:'chenwixun-jianaf3a8d1e718ead';
 	font-weight: bold;
-	animation:ach 1.6s linear; 
+	animation:ach 1.3s linear; 
 }
 .got{
 	width: 480px;
@@ -459,7 +459,7 @@ p{
 	font-size: 24px;
 }
 .scholarship{
-	animation:scholarship 3.7s linear;
+	animation:scholarship 2.5s linear;
 }
 @-webkit-keyframes scholarship{
 	0%{
@@ -533,16 +533,16 @@ p{
 	}
 }
 .model{
-	animation:model 3.8s linear;
+	animation:model 2.6s linear;
 }
 .blog{
-	animation:blog 4.1s linear;
+	animation:blog 2.9s linear;
 }
 .reward{
-	animation:reward 4.4s linear;
+	animation:reward 3.2s linear;
 }
 .ss{
-	animation:ss 4s linear;
+	animation:ss 2.8s linear;
 }
 .down{
 	width: 550px;
